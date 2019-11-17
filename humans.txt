@@ -5,3 +5,15 @@ Position: Student at Linnéuniversitetet
 Email: jj223pz@student.lnu.se
 Github: Netxe
 Location: Kalmar, Sweden
+
+/* THANKS  */
+
+https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/examination/exam-assignment-1/
+
+
+/* SITE */
+
+Last update: 2019/11/17
+Language: English
+Doctype: HTML5
+IDE: Visual Studio Code
