@@ -2,9 +2,10 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 3px solid $purple-color;
+  border-bottom: 3px solid $purple-color;
   min-height: $spacing-unit * 1.865;
+  background: white;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -39,6 +40,7 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -106,7 +108,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $purple-color;
   padding: $spacing-unit 0;
 }
 
@@ -186,25 +188,33 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  text-align: center;
 }
 
 .post-list {
   margin-left: 0;
   list-style: none;
+  background-color: rgb(255, 255, 255);
+
+  
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin: $spacing-unit;
+    border-bottom: 1px solid;
+    text-align: center;
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $purple-color;
+  text-align: right;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  text-align: center;
 }
 
 
@@ -214,6 +224,7 @@
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  
 }
 
 .post-title {
@@ -228,6 +239,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+
 
   h2 {
     @include relative-font-size(2);
