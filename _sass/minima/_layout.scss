@@ -5,7 +5,7 @@
   border-top: 3px solid $purple-color;
   border-bottom: 3px solid $purple-color;
   min-height: $spacing-unit * 1.865;
-  background: white;
+  background-color: $headfoot-color;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -110,6 +110,7 @@
 .site-footer {
   border-top: 1px solid $purple-color;
   padding: $spacing-unit 0;
+  background-color: $headfoot-color;
 }
 
 .footer-heading {
@@ -189,13 +190,15 @@
 .post-list-heading {
   @include relative-font-size(1.75);
   text-align: center;
+  color: black;
+  background-color: white;
 }
 
 .post-list {
   margin-left: 0;
   list-style: none;
   background-color: rgb(255, 255, 255);
-
+  border: solid;
   
 
   > li {

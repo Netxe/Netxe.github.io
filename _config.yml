@@ -21,9 +21,9 @@
 title: Jonatan Jonsson
 email: jj223pz@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Samlingssida för mina projekt i kursen 1dv022 på Linnéuniversitetet i Kalmar.
+  Collection page for my projects in the course 1dv022 at Linnaeus University in Kalmar.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "Github.com/jj223pz.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  jj223pz
 
