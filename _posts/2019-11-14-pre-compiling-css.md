@@ -2,28 +2,58 @@
 layout: post
 title:  "Pre-compiling css"
 date:   2019-11-14 01:27:55 -0600
-categories: jekyll update
+permalink: /pre-compiling-css/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# What do you think of pre-compiling your CSS?
 
-`YEAR-MONTH-DAY-title.MARKUP`
+- Compare to regular CSS
+- Which techniques did you use?
+- Pros and cons?
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
+<br>
+I think the best benefit of using CSS-pre-processors compared to regular CSS is their improved syntax. It allows me to use variables for whatever I want. By using this technique I can easily and quickly do changes on all my web pages. It is user-friendly and doesn't take hours and hours spent before being able to start to use it. Here is an example whose variable has been assigned a color.
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+$blue: #004BB4;
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Another huge benefit of CSS-pre-processors is that it allows me to use a nested syntax which allows a cleaner way of targeting elements. I think the syntax becomes more natural and easily read. I feel like the code becomes more organized and structured in a way that it also becomes more maintainable.
+For example:
+{% highlight ruby %}
+.navbar {
+  font: $ubuntu-font;
+  color: $blue;
+  li {
+    margin-left: 1rem;
+    a {
+      padding: 5px;
+    }
+  }
+}
+{% endhighlight %}
+The cons I would say is that it becomes abit more difficult to debug, and I quess u have to learn a new syntax aswell. However I undoubtedly feel like the pros outweigh the cons.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+I didn't do any major changes. Changed some main, header and footer colors,set some borders with a color, changed the post layout and centered it. Here is an example of a part of my code which has a nested syntax with variables.
+{% highlight ruby %}
+ a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $visited-color;
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: underline;
+    }
+  }
+}
+{% endhighlight %}

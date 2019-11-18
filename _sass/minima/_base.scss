@@ -108,7 +108,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: limegreen;
+    color: $visited-color;
   }
 
   &:hover {
