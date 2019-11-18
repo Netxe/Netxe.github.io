@@ -23,14 +23,18 @@ email: jj223pz@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
   Collection page for my projects in the course 1dv022 at Linnaeus University in Kalmar.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "Github.com/jj223pz.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "netxe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
-github_username:  jj223pz
+github_username:  netxe
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+disqus: 
+    
+    shortname: jj223pz
 
 # Exclude from processing.
 # The following items will not be processed, by default.
