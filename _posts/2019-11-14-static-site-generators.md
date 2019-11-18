@@ -2,6 +2,7 @@
 layout: post
 title:  "Static Site Generators"
 permalink: /static-side-generators/
+comments: true
 ---
 
 # What do you think of static site generators?
