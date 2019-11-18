@@ -2,6 +2,7 @@
 layout: post
 title:  "Open Graph"
 permalink: /open-graph/
+comments: true
 ---
 # What is Open Graph and how do you make use of it?
 

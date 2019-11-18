@@ -3,6 +3,7 @@ layout: post
 title:  "Pre-compiling css"
 date:   2019-11-14 01:27:55 -0600
 permalink: /pre-compiling-css/
+comments: true
 ---
 
 # What do you think of pre-compiling your CSS?

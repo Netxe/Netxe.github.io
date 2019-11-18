@@ -33,7 +33,6 @@ plugins:
   - jekyll-feed
 
 disqus: 
-    
     shortname: jj223pz
 
 # Exclude from processing.
